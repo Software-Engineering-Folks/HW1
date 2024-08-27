@@ -7,8 +7,4 @@ def bubblesort(array):
                 array[j] = temp
     return array
 
-def cov_check(x):
-    x = x + 2
-    return x
-
 print("hello world")
