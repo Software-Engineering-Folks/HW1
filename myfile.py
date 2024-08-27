@@ -6,8 +6,3 @@ def bubblesort(array):
                 array[i] = array[j]
                 array[j] = temp
     return array
-
-initialArray = [5,8,3,7,2]
-print("Initial Array: ", initialArray)
-sortedArray = bubblesort(initialArray)
-print("Sorted Array: ", sortedArray)
