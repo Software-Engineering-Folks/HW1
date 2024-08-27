@@ -6,3 +6,5 @@ def bubblesort(array):
                 array[i] = array[j]
                 array[j] = temp
     return array
+
+print("hello world")
