@@ -1,4 +1,4 @@
-import myfile as mf
+import src.myfile as mf
 
 def test_successful():
     assert mf.bubblesort([1,6,5,3]) == [1,3,5,6]
