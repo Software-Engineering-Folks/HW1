@@ -2,4 +2,4 @@
 [![](https://img.shields.io/badge/platform-Linux-blue)](https://www.linux.org/)
 [![](https://img.shields.io/badge/language-Python_3.13-green)](https://www.python.org/)
 [![](https://github.com/Software-Engineering-Folks/HW1/actions/workflows/python-app.yml/badge.svg?event=push)](https://github.com/Software-Engineering-Folks/HW1/actions)
-[![](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master)
+[![](https://codecov.io/github/Software-Engineering-Folks/HW1/graph/badge.svg?token=NP5IYQ6UAN)](https://codecov.io/github/Software-Engineering-Folks/HW1)
