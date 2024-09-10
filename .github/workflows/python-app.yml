@@ -44,7 +44,7 @@ jobs:
     - name: Run Pylint
       run: |
         pip install pylint
-        pylint ./src ./hw2_debugging.py  ./rand.py # Add other files as needed
+        pylint ./HW2/hw2_debugging.py  ./HW2/rand.py # Add other files as needed
 
     # Run tests with pytest and collect coverage
     - name: Test with pytest
