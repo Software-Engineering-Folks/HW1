@@ -38,7 +38,7 @@ jobs:
     - name: Run Pyflakes
       run: |
         pip install pyflakes
-        pyflakes .
+        pyflakes ./HW2/hw2_debugging.py  ./HW2/rand.py
 
     # Run Pylint for code linting
     - name: Run Pylint
@@ -50,7 +50,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest pytest-cov
-        pytest testFile.py --doctest-modules --junitxml=junit/test-results.xml --cov=./src --cov-report=xml --cov-report=html
+        pytest testFile.py ./HW2/hw2_debugging.py  ./HW2/rand.py --doctest-modules --junitxml=junit/test-results.xml --cov=./src --cov-report=xml --cov-report=html
     - name: Upload coverage report to Codecov
       uses: codecov/codecov-action@v3
       with:
