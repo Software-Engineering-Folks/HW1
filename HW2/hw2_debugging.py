@@ -1,13 +1,13 @@
 import rand
 
 
-def merge_sort(arr):
-    if (len(arr) == 1):
-        return arr
+def merge_sort(arr_func):
+    if len(arr_func) == 1:
+        return arr_func
 
-    half = len(arr) // 2
+    half = len(arr_func) // 2
 
-    return recombine(merge_sort(arr[:half]), merge_sort(arr[half:]))
+    return recombine(merge_sort(arr_func[:half]), merge_sort(arr_func[half:]))
 
 
 def recombine(left_arr, right_arr):
