@@ -1,6 +1,6 @@
 '''This file is created by Software Engineering Folks. 
 It is used for testing ./src/myFile.py'''
-import src.my_file as mf
+import my_file as mf
 
 def test_successful():
     '''testing bubble sort'''
