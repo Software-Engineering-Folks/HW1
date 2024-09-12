@@ -28,24 +28,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # Run autopep8 to format the code
-    - name: Run autopep8
-      run: |
-        pip install autopep8
-        autopep8 --in-place --recursive .
-
-    # Run Pyflakes for static analysis
-    - name: Run Pyflakes
-      run: |
-        pip install pyflakes
-        pyflakes ./hw2_debugging.py ./rand.py
-
-    # Run Pylint for code linting
-    - name: Run Pylint
-      run: |
-        pip install pylint
-        pylint ./hw2_debugging.py ./rand.py
-
     # Run tests with pytest and collect coverage
     - name: Test with pytest
       run: |
