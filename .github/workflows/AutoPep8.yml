@@ -1,4 +1,4 @@
-name: Python application
+name: AutoPep8
 
 on:
   push:
