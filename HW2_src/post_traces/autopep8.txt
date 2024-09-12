@@ -1,0 +1,22 @@
+--- original/hw2_debugging.py
++++ fixed/hw2_debugging.py
+@@ -1,11 +1,8 @@
+ import rand
++
+ 
+ def mergeSort(arr):
+ 
+-
+-
+-
+-    
+     if (len(arr) == 1):
+         return arr
+ 
+@@ -38,4 +35,4 @@
+ arr = rand.random_array([None] * 20)
+ arr_out = mergeSort(arr)
+ 
+-print(arr_out)
+\ No newline at end of file
++print(arr_out)
