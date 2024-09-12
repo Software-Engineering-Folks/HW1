@@ -3,3 +3,6 @@
 [![](https://img.shields.io/badge/language-Python_3.13-green)](https://www.python.org/)
 [![](https://github.com/Software-Engineering-Folks/HW1/actions/workflows/python-app.yml/badge.svg?event=push)](https://github.com/Software-Engineering-Folks/HW1/actions)
 [![](https://codecov.io/github/Software-Engineering-Folks/HW1/graph/badge.svg?token=NP5IYQ6UAN)](https://codecov.io/github/Software-Engineering-Folks/HW1)
+[![Bandit](https://github.com/Software-Engineering-Folks/HW1/actions/workflows/bandit.yml/badge.svg)](https://github.com/Software-Engineering-Folks/HW1/actions/workflows/bandit.yml)
+[![Pylint](https://github.com/Software-Engineering-Folks/HW1/actions/workflows/pylint.yml/badge.svg)](https://github.com/Software-Engineering-Folks/HW1/actions/workflows/pylint.yml)
+[![.github/workflows/AutoPep8.yml](https://github.com/Software-Engineering-Folks/HW1/actions/workflows/AutoPep8.yml/badge.svg)](https://github.com/Software-Engineering-Folks/HW1/actions/workflows/AutoPep8.yml)
