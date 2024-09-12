@@ -1,6 +1,6 @@
-'''This module has two function - 
+'''This module has two function -
 1. merge_sort(arr) - Takes an array as input and performs merge sort on it
-2. recombine(left_array, right_array) - This takes two sorted input arrays 
+2. recombine(left_array, right_array) - This takes two sorted input arrays
 and merges them in a sorted fashion'''
 
 import rand
@@ -17,7 +17,7 @@ def merge_sort(arr_func):
 
 
 def recombine(left_arr, right_arr):
-    '''This function performs the merging of the two sorted input arrays 
+    '''This function performs the merging of the two sorted input arrays
     left_array and right_array in a sorted fashion'''
 
     left_index, right_index, merge_arr = 0, 0, []
