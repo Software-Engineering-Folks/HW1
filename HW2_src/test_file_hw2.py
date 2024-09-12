@@ -1,7 +1,7 @@
 '''This file is created by Software Engineering Folks. 
 It is used for testing the hw2_debugging files'''
 
-from HW1.HW2_src import hw2_debugging
+import hw2_debugging
 
 def test_sorted_input():
     '''testing sorted input'''
