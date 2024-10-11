@@ -1,6 +1,6 @@
 #!/bin/bash
 
-grep -l "sample" dataset/file* | 
+grep -l "sample" dataset1/file* | 
 xargs -I {} sh -c 'echo "{} $(grep -o "CSC510" "{}" | wc -l) $(wc -c < "{}")"' | 
 awk '$2 >= 3' |
 sort -k2,2nr -k3,3nr |
